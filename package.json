@@ -1,0 +1,11 @@
+{
+  "name": "bootcamp_react",
+  "scripts": {
+    "start:backend": "npm run watch -w ./backend",
+    "start:frontend": "npm run start -w ./frontend"
+  },
+  "workspaces": [
+    "./*"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}
